@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements a fully autonomous Line Follower Robot with Obstacle Avoidance, built using FreeRTOS on the STM32F446RE microcontroller [web:5]. The robot tracks a black line using a 5-IR sensor array, performs PID-based steering, and automatically detects and avoids obstacles using an HC-SR04 ultrasonic sensor [web:10]. The system uses multiple real-time tasks, inter-task communication via queues, and hardware PWM motor control for smooth navigation.
+This project implements a fully autonomous Line Follower Robot with Obstacle Avoidance, built using FreeRTOS on the STM32F446RE microcontroller. The robot tracks a black line using a 5-IR sensor array, performs PID-based steering, and automatically detects and avoids obstacles using an HC-SR04 ultrasonic sensor. The system uses multiple real-time tasks, inter-task communication via queues, and hardware PWM motor control for smooth navigation.
 
 ## Key Features
 
@@ -10,7 +10,7 @@ This project implements a fully autonomous Line Follower Robot with Obstacle Avo
 - **PID Line Control**: Uses proportional + derivative steering correction to precisely follow curves
 - **Ultrasonic Obstacle Avoidance**: Automatically stops and reroutes when an object is detected
 - **Queue-Based Motor Commands**: Clean, decoupled control system using a MotorCommandQueue
-- **Real-Time Diagnostics**: Live task-state monitoring using Percepio Tracealyzer and UART logs using TeraTerm [web:5]
+- **Real-Time Diagnostics**: Live task-state monitoring using Percepio Tracealyzer and UART logs using TeraTerm
 - **Fail-Safe Design**: Stack monitoring, distance timeouts, and sensor sanity checks
 
 ## Hardware Connections
@@ -30,7 +30,7 @@ STM32F446RE (Nucleo-F446RE)
 
 ### Additional Tools
 
-- Percepio Tracealyzer 4 (RTOS task visualization) [web:7]
+- Percepio Tracealyzer 4 (RTOS task visualization)
 - STM32CubeIDE (build + flash)
 - TeraTerm (UART monitoring)
 
@@ -63,7 +63,7 @@ Using TIM4 Input Capture on PB7 for Echo.
 Distance = (Δtime * 0.0343) / 2
 
 
-If distance < threshold → STOP and avoid obstacle [web:10].
+If distance < threshold → STOP and avoid obstacle.
 
 ### 4. System Monitoring
 
