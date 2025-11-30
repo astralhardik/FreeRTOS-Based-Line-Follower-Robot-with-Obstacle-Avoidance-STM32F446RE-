@@ -117,7 +117,3 @@ Printed every 1 second.
 - Battery-level monitoring
 - Speed estimation via encoders
 
-
-
-## FreeRTOS Task Architecture
-
