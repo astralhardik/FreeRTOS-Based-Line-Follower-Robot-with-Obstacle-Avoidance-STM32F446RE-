@@ -1,1 +1,0 @@
-# FreeRTOS-Based-Line-Follower-Robot-with-Obstacle-Avoidance-STM32F446RE-
