@@ -95,7 +95,7 @@ Printed every 1 second.
 
 ## Photos & Visuals
 
-![Robot Top View](Images/Robot_top_view.jpg)
+![Robot Top View]([Images/Robot_top_view.jpg](https://github.com/astralhardik/FreeRTOS-Based-Line-Follower-Robot-with-Obstacle-Avoidance-STM32F446RE-/blob/main/Robot_top_view.jpg))
 ![Working View](Images/Working_View.jpg)
 ![Percepio Tracealyzer](Images/Percepio_Tracealyzer.png)
 ![Pin Configuration](Images/Stm32CubeMX_Pin_configuration.png)
