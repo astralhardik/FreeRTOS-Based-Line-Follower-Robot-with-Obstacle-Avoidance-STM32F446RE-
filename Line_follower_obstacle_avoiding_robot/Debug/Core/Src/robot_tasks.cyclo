@@ -1,0 +1,5 @@
+../Core/Src/robot_tasks.c:38:6:vLineFollowerTask	14
+../Core/Src/robot_tasks.c:118:6:vObstacleDetectionTask	6
+../Core/Src/robot_tasks.c:177:6:vMotorControlTask	2
+../Core/Src/robot_tasks.c:193:6:vSystemMonitorTask	2
+../Core/Src/robot_tasks.c:220:6:vSensorTimerCallback	1
